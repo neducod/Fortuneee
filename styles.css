@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    /*font-family: Arial, sans-serif;
+    background-color: #020c20;
+    color: white;*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+
+
+
+
+    background: linear-gradient(135deg, #000046, #1CB5E0); /* Dark blue gradient */
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+.stars{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/stardust.png'); /* Starry background */
+    background-size: cover;
+    pointer-events: none;
+}
+
+#particles-js{
+    display: inline;
+    height: 30px;
+}
+.container {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+#image{
+    width: 50px;
+}
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(135deg, #1CB5E0, #000046);
+    color: #000046;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #000046, #1CB5E0);
+}
+
+#answer {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
