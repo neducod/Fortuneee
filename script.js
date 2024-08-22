@@ -2,14 +2,15 @@
 
 // Array of possible Magic 8-Ball responses
 const responses = [
-    "It is certain.",
+    "Yes.",
+    "Certainly",
     "It is decidedly so.",
     "Without a doubt.",
     "Yes, definitely.",
-    "You may rely on it.",
+    "Cannot predict now.",
     "As I see it, yes.",
     "Most likely.",
-    "Outlook good.",
+    "Don't bet on it .",
     "Yes.",
     "Signs point to yes.",
     "Reply hazy, try again.",
@@ -20,7 +21,7 @@ const responses = [
     "Don't count on it.",
     "My reply is no.",
     "My sources say no.",
-    "Outlook not so good.",
+    "All signs says no",
     "Very doubtful."
 ];
 
